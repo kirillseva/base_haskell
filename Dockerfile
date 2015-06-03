@@ -7,6 +7,7 @@ RUN \
   apt-get update && \
   # Install software dependencies
   apt-get install -y --force-yes \
-    git
+    git \
+    libpq-dev
 
 CMD ['bin/bash']
